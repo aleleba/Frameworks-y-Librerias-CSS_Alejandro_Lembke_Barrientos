@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "Snowboarding";
+	src: url(../fonts/Snowboarding.eot), url(../fonts/Snowboarding.otf), url(../fonts/Snowboarding.ttf);
+}
+
+body h1{
+	font-family: "Snowboarding";
+	font-size: 100px;
+}
+
+.post-sidebar{
+	font-family: "Snowboarding";
+	font-size: 30px;
+	text-decoration: none;
+	color: #000000;
+	transition: ease-in-out 0.5s;
+	padding: 5px;
+	height: auto;
+}
+
+.post-sidebar:hover{
+	text-decoration: none;
+	color: #D89941;
+	
+}
+
+.icono-comentario{
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contenedor-logo{
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	background-color: #D89941;
+}
+
+#logo-inicio{
+	font-size: 300px;
+	color: #FFFFFF;
+}
+
+#contenedor-logo a{
+	text-decoration: none;
+}
+
+#iconos-redes{
+	float: right; 
+	font-size: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+#iconos-redes a{
+	position: relative;
+	padding-top: 50px;
+	color: #FFFFFF;
+	transition: ease-in-out 0.5s;
+}
+
+#iconos-redes a:hover{
+	color: #F8E44B;
+	transition: ease-in-out 0.5s
+}
+
+#iconos-redes a span{
+	font-size: 30px
+}
+
+ body .navbar-default .navbar-collapse .navbar-nav li {
+	 width: 16.66%;
+	 text-align: center;
+	 font-family: "Snowboarding";
+}
+
+body .navbar-default .navbar-collapse .navbar-nav li a {
+	width: 100%;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: "Snowboarding";
+	font-size: 40px;
+}
+
+body .navbar-default .navbar-collapse .navbar-nav li a:hover,
+body .navbar-default .navbar-collapse .navbar-nav li a:active,
+body .navbar-default .navbar-collapse .navbar-nav li a:focus,
+body .navbar-default .navbar-collapse .navbar-nav li a:visited {
+	text-decoration: none;
+	color: #F8E44B;
+	transition: ease-in-out 0.5s
+}
+
+body .navbar-default .navbar-collapse .navbar-nav {
+    position: relative;
+    width: 100% !important;
+    margin: 0px !important;
+	padding: 0px !important;
+}
+
+body .navbar{
+	background-color: #EFBE54;
+	border: none;
+	border-radius: 0px;
+}
+
+body .navbar-default .navbar-header .navbar-toggle {
+	background-color: #FFFFFF;
+	border-color: transparent;
+}
+
+ body .navbar-default .navbar-header .navbar-toggle:hover, body .navbar-default .navbar-header .navbar-toggle:active, body .navbar-default .navbar-header .navbar-toggle:focus {
+	 background-color: #F8E44B;
+	 border-color: transparent; 
+}
+
+@media screen and (max-width: 767px) {
+	body .navbar-default .navbar-collapse .navbar-nav li {
+		width: 100%;
+	}
+	
+	#sidebar{
+		display: none;
+	}
+}

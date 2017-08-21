@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turismomaniacos</title>
+
+<link href="css/materialize.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link href="css/hojadeestilos.css" rel="stylesheet" type="text/css">
+
+<link href="fonts/icomoon/style.css" rel="stylesheet">
+
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+
+<script src="js/materialize.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.button-collapse').sideNav({
+		  menuWidth: 300, // Default is 300
+		  edge: 'left', // Choose the horizontal origin
+		  closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+		  draggable: true // Choose whether you can drag to open on touch screens,
+		});
+	});
+</script>
+
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+			  <a href="#" class="brand-logo">
+			  	<div id="fondo-Logo">
+			  		<img id="Logo" src="img/Logo Turismo.svg" style="margin-left: 7px;">
+			  	</div>
+			  </a>
+			  <ul class="right hide-on-med-and-down">
+				<li><a class="waves-effect waves-light btn">Inicio</a></li>
+				<li><a class="waves-effect waves-light btn">Estuve En</a></li>
+				<li><a class="waves-effect waves-light btn">Mejores Viajes</a></li>
+				<li><a class="waves-effect waves-light btn">Recomendaciones</a></li>
+			  </ul>
+			  <ul id="slide-out" class="side-nav">
+				<li><a class="waves-effect waves-light btn">Inicio</a></li>
+				<li><a class="waves-effect waves-light btn">Estuve En</a></li>
+				<li><a class="waves-effect waves-light btn">Mejores Viajes</a></li>
+				<li><a class="waves-effect waves-light btn">Recomendaciones</a></li>
+			  </ul>
+			  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+			  <h3 id="slogan" style="background-color: #FFFFFF;">Siempre un nuevo lugar por descubrir</h3>
+			</div>
+		  </nav>
+	</header>
+	<div class="container sin-margin sin-padding" style="padding-left: 30px; padding-right: 30px; margin-top: 150px; width: 100vw; background-color: #FFFFFF;">
+		<div class="row">
+			<div id="iconos-redes" class="col m1 l1 xl1">
+				<a href="#"><span class="icon-youtube"></span></a>
+				<a href="#"><span class="icon-facebook-f"></span></a>
+				<a href="#"><span class="icon-instagram"></span></a>
+				<a href="#"><span class="icon-pinterest"></span></a>
+				<a href="#"><span class="icon-twitter"></span></a>
+			</div>
+			<div id="imagenes" class="col s12 m11 l11 xl11">
+				<div class="col s12 m4 l4 xl4">
+					<img src="img/calle-antigua-guatemala-del-arco-santa-catalina-228733.jpg" class="col s12 m12 l12 xl12" style="margin-top: 15px;">
+					<img src="img/Panajachel_joya_life_.1jpg.jpg" class="col s12 m12 l12 xl12" style="margin-top: 15px;">
+				</div>
+				<img src="img/GT056-Antigua_Arch-low.jpeg" class="col s12 m4 l4 xl4" style="margin-top: 15px;">
+				<img src="img/catedral-antigua-guatemala.jpg" class="col s12 m4 l4 xl4" style="margin-top: 15px;">
+				<img src="img/panajachel.jpg" class="col s12 m4 l4 xl4" style="margin-top: 15px;">
+			</div>
+		</div>
+		<div class="row" style="padding-bottom: 25px;">
+			<div class="col s12 m8 l8 xl8">
+				<h4 id="tituloentrada" class="col s12 m12 l12 xl12">Panajachel</h4>
+				<p class="col s12 m12 l12 xl12">Fecha: 20/08/2017 - Ubicacion: Sololá, Guatemala</p>
+				<div class="col s12 m12 l12 xl12">
+					<img src="img/panajachel.jpg" class="col s12 m4 l4 x4">
+					<p style="text-align: justify">Panajachel —o San Francisco Panajachel— («San Francisco»: en honor a su santo patrono Francisco de Asís) es un municipio y ciudad del departamento de Sololá, en la República de Guatemala. Su cabecera municipal es la ciudad del mismo nombre, la cual tiene aproximadamente 11.000 habitantes. Se ubica en el altiplano guatemalteco a orillas del lago Atitlán a una altitud de 1500 metros sobre nivel del mar.<br>Fue fundado como una de las reducciones o «doctrinas», por los frailes franciscano y durante la época colonial fue sede de uno de los conventos de la Provincia franciscana del Santísimo Nombre de Jesús en Guatemala. Luego de la Independencia de Centroamérica en 1821, pasó a formar parte del departamento de Sololá/Suchitepéquez; y en 1838 fue parte del efímero Estado de Los Altos hasta que este fue reincorporado al Estado de Guatemala por el general conservador Rafael Carrera en 1840. Posteriormente, tras la Reforma Liberal de 1871, el 12 de agosto de 1872 el gobierno de facto del presidente provisorio Miguel García Granados creó el departamento de Quiché, al que adjudicó gran parte del territorio de Sololá, aunque Panajachel permaneció en este último.</p>
+				</div>
+				<div class="col s12 m12 l12 xl12">
+					<i class="material-icons col s12 m1 l1 xl1" style="font-size: 25px;">account_circle</i>
+					<textarea placeholder="Comentario" class="col s12 m11 l11 xl11"></textarea>
+					<a class="waves-effect waves-light btn" style="margin-top: 15px;">Enviar</a>
+				</div>
+			</div>
+			<div class="col s12 m4 l4 lx4">
+				<img class="col s12 m8 offset-m2 l8 offset-l2 lx6 offset-lx3" src="img/abstract-user-flat-3.png" style="margin-top: 15px;">
+				<h4 id="tituloperfil" class="col s12 m12 l12 xl12">Perfil del Autor</h4>
+				<p class="col s12 m12 l12 xl12" style="text-align: center;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
